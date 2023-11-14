@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="imagination test modeling">
+  <link
+    name="imagination test modeling">
+    <inertial>
+      <origin
+        xyz="0.09012203 0.0534564 0.029097"
+        rpy="0 0 0" />
+      <mass
+        value="1.0141" />
+      <inertia
+        ixx="0.0011396"
+        ixy="1.9732E-06"
+        ixz="4.0715E-08"
+        iyy="0.0030487"
+        iyz="9.0129E-05"
+        izz="0.0035721" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0.09 0.05 0"
+        rpy="0 0 3.14159265358979" />
+      <geometry>
+        <mesh
+          filename="package://imagination test modeling/meshes/imagination test modeling.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+        <texture
+          filename="package://imagination test modeling/textures/" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0.09 0.05 0"
+        rpy="0 0 3.14159265358979" />
+      <geometry>
+        <mesh
+          filename="package://imagination test modeling/meshes/imagination test modeling.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>
